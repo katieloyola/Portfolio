@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Katie Loyola</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+</head>
+<style>
+
+    html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.bg { 
+  background-image: url(images/cara-fuller-289786-unsplash.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  top: 0;
+}
+
+#name {
+    font-family: 'Sacramento', cursive;
+    size: 400px;
+    text-align: center;
+
+}
+
+#contactS {
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+}
+
+.contact-form {
+    background:  lightgray;
+    opacity: 0.7;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color:whitesmoke;
+   text-align: center;
+}
+
+</style>
+ <div class="bg">
+<body>
+
+   
+        <br>
+        <h1 id="name">Katie J. Loyola</h1>
+
+
+        <!--Navbar-->
+        <div class="container-fullwidth">
+            <nav class="navbar navbar-default fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+
+                        <!--toggle when screen is small/mobile-->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1"
+                            aria-expanded="false">
+                            <!--ARIA: Accessible Rich Internet Applications-->
+                            <!--screen reader-->
+                            <span class="sr-only"></span>
+
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav pull-right">
+                            <!--logo-->
+                            <!-- <li><a class="pull-right" href="#"><img id="logo" src="https://ui-avatars.com/api/?name=Katie+Loyola"></a>
+                                    </li> -->
+                            <!-- <li><a href="portfolio.html">Portfolio </a></li> -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio.html">Bootcamp Portfolio</a></li>
+                                    <li><a href="https://github.com/katieloyola" target="_blank">GitHub</a></li>
+                                    <li><a href="https://www.linkedin.com/in/katie-loyola-aa520265/" target="_blank">LinkedIn</a></li>
+                                    <li><a href="https://www.facebook.com/katie.loyola.1" target="_blank">Facebook</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+                            <li><a href="contact.html">Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <!--Contact Form-->
+        <div class="container contact-form">
+            <h1 id="contactS">Contact</h1>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <address>PO Box 683394
+                        <br>Park City UT, 84068</address>
+                    <p>katie.loyola@gmail.com</p>
+                    <p>(801) 891-4374</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="John Smith" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" placeholder="example@gmail.com" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="5" required="required"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <hr />
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <hr>
+            <p>Katie J. Loyola &copy; 2019</p>
+        </div>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+</body>
+
+<!--js for destination selection?-->
+<script type="text/javascript"></script>
+
+</html>
