@@ -17,157 +17,104 @@
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 
 </head>
-<style>
 
-    html, 
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-}
-.bg { 
-  background-image: url(images/cara-fuller-289786-unsplash.jpg);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  top: 0;
-}
-#name {
-    font-family: 'Sacramento', cursive;
-    size: 400px;
-    text-align: center;
+<body class="bg">
+    <br>
+    <h1 id="name">Katie J. Loyola</h1>
 
-}
-#about {
-    font-family: 'Sacramento', cursive;
-    text-align: left;
-}
-.index {
-        background:lightgray;
-        opacity: 0.7;
-}
-.footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color:whitesmoke;
-   text-align: center;
-}
-</style>
+    <!--Navbar-->
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-default fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
 
-    <div class="bg">
-<body>
+                    <!--toggle when screen is small/mobile-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1"
+                        aria-expanded="false">
+                        <!--ARIA: Accessible Rich Internet Applications-->
+                        <!--screen reader-->
+                        <span class="sr-only"></span>
 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-        <br>
-        <h1 id="name">Katie J. Loyola</h1>
+                </div>
 
-        <!--Navbar-->
-        <div class="container-fullwidth">
-            <nav class="navbar navbar-default fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
 
-                        <!--toggle when screen is small/mobile-->
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1"
-                            aria-expanded="false">
-                            <!--ARIA: Accessible Rich Internet Applications-->
-                            <!--screen reader-->
-                            <span class="sr-only"></span>
-
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-
-                        <ul class="nav navbar-nav pull-right">
-                            <!--logo-->
-                            <!-- <li><a class="pull-right" href="#"><img id="logo" src="https://ui-avatars.com/api/?name=Katie+Loyola"></a>
+                    <ul class="nav navbar-nav pull-right">
+                        <!--logo-->
+                        <!-- <li><a class="pull-right" href="#"><img id="logo" src="https://ui-avatars.com/api/?name=Katie+Loyola"></a>
                         </li> -->
-                            <!-- <li><a href="portfolio.html">Portfolio </a></li> -->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="portfolio.html">Bootcamp Portfolio</a></li>
-                                    <li><a href="https://github.com/katieloyola" target="_blank">GitHub</a></li>
-                                    <li><a href="https://www.linkedin.com/in/katie-loyola-aa520265/" target="_blank">LinkedIn</a></li>
-                                    <li><a href="https://www.facebook.com/katie.loyola.1" target="_blank">Facebook</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="index.html">About <span class="sr-only">(current)</span></a></li>
-                            <li><a href="contact.html">Contact </a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </nav>
-        </div>
-
-        <div class="container container-fluid index">
-            <h1 id="about">About Me</h1>
-            <hr>
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-4">
-                    <img src="images/Placeholder.png" class="img-responsive" width="100%" style="padding-bottom: 20px">
-                </div>
-
-                <div class="col-xs-12 col-sm-8">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus
-                                felis, ac
-                                rhoncus
-                                nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id
-                                arcu.
-                                Proin
-                                vel
-                                dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod.
-                                Proin
-                                commodo
-                                purus vitae sollicitudin consectetur.</p>
-
-                            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non,
-                                pretium
-                                odio.
-                                Nunc
-                                id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-                            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet
-                                egestas
-                                nibh
-                                tortor
-                                et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                                ridiculus
-                                mus.</p>
-                        </div>
-                    </div>
+                        <!-- <li><a href="portfolio.html">Portfolio </a></li> -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio 
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio.html">Boot Camp Portfolio</a></li>
+                                <li><a href="https://github.com/katieloyola" target="_blank">GitHub</a></li>
+                                <!-- <li><a href="https://www.linkedin.com/in/katie-loyola-aa520265/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://www.facebook.com/katie.loyola.1" target="_blank">Facebook</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+                        <li><a href="contact.html">Contact </a></li>
+                    </ul>
                 </div>
             </div>
 
-        </div>
-
-        <div class="footer">
-            <hr>
-            <p>Katie J. Loyola &copy; 2019</p>
-        </div>
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </nav>
     </div>
+
+    <div class="container container-fluid index">
+        <h1 id="about"> About</h1>
+        <hr>
+        <div class="row">
+            <div class="col-xs-6 col-sm-4">
+                <img src="images/Profile.jpg" class="img-responsive portfolio" width="90%" style="padding-bottom: 20px">
+            </div>
+
+            <div class="col-xs-12 col-sm-8">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Katie was born and raised in Salt Lake City, Utah where she developed a love for the
+                            mountains and the great outdoors. Growing up, Katie was a competitive figure skater which
+                            instilled in her great discipline and a competitive, hard working attitude. After graduating from a small
+                            liberal arts high school, Katie made her way to San Diego to take in the big waves and the
+                            year-round sunshine California had to offer. </p>
+
+                        <p>In 2013, Katie graduated from San Diego State University with a B.A. in Social Science and
+                            Environmental Studies. Katie has over 10 years of experience working in hospitality, hotels
+                            and event management. Her experience includes management roles with the Sundance Film Festival (UT), San Diego Comic-Con
+                            International Festival (CA), the Manchester Grand Hyatt (CA),
+                            and the Park City Marriott Hotel (UT). After 12 years in San Diego, Katie returned home to
+                            Utah and enrolled in the Full-stack Web Development Boot Camp through the University of
+                            Utah to take on a new challenge. </p>
+
+                        <p>Katie currently resides in Salt Lake City, Utah and is working towards becoming a full-time
+                            UX/UI designer. When Katie is not behind the screen, you can find her hiking with her dog,
+                            Moby, travelling, cooking or river rafting. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <hr>
+        <p>Katie J. Loyola &copy; 2019</p>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 
 <!--js for destination selection?-->

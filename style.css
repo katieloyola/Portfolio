@@ -1,0 +1,119 @@
+/*all*/
+    html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.bg { 
+  background-image: url(images/cara-fuller-289786-unsplash.jpg);
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+}
+#name {
+    font-family: 'Sacramento', cursive;
+    size: 400px;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    size: 400px;
+    text-align: center;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:whitesmoke;
+    text-align: center;
+ }
+/*portfolio page*/
+.container {
+    /* text-align: center; */
+    font-size: 15px;    
+    background: lightgray;
+    opacity: 0.7;
+}
+
+#port {
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+}
+
+/*contact page*/
+#contactS,
+#connect {
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+}
+
+.contact-form {
+    background:  lightgray;
+    opacity: 0.7;
+}
+/*social icons*/
+/*font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    margin: 5px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+ 
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  /*LinkedIn*/
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  /*Google*/
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  /*Instagram*/
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  /*Github*/
+  .fa-github{
+    color: #fff;
+    background-color: #444;
+    border-color: rgba(0,0,0,0.2);
+}
+/*index page*/
+
+#name {
+    font-family: 'Sacramento', cursive;
+    size: 400px;
+    text-align: center;
+}
+
+#about {
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+}
+.index {
+        background:lightgray;
+        opacity: 0.7;
+        text-align: justify;
+}
